@@ -14,7 +14,7 @@ public class Db : DbContext
     public DbSet<Logs> Logs {get; set;}
     public DbSet<Empresa> Empresa {get;set;}
 
-    const string connectionString = "Server=localhost; DataBase=Virtualoja; Uid=dbaprod; Pwd=admin@123";
+    const string connectionString = " ";
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
